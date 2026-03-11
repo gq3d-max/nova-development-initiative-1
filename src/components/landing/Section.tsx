@@ -16,7 +16,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
         </motion.div>
       )}
       <motion.h2
-        className="text-4xl md:text-6xl lg:text-[5rem] xl:text-[6rem] font-bold leading-[1.1] tracking-tight max-w-4xl text-white"
+        className="text-5xl md:text-7xl lg:text-[5.5rem] xl:text-[7rem] font-light leading-[1.05] tracking-tight max-w-4xl text-white"
         initial={{ opacity: 0, y: 50 }}
         animate={isActive ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5 }}
@@ -43,7 +43,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
           <Button
             variant="outline"
             size="lg"
-            className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
+            className="text-[#C9A96E] bg-transparent border-[#C9A96E] hover:bg-[#C9A96E] hover:text-black transition-colors tracking-widest uppercase text-xs font-light px-8 py-6"
           >
             {buttonText}
           </Button>

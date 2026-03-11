@@ -25,7 +25,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
       </motion.h2>
       {content && (
         <motion.p
-          className="text-lg md:text-xl lg:text-2xl max-w-2xl mt-6 text-neutral-400"
+          className="text-base md:text-lg max-w-xl mt-6 text-neutral-500 font-light leading-relaxed tracking-wide"
           initial={{ opacity: 0, y: 50 }}
           animate={isActive ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -38,7 +38,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
           initial={{ opacity: 0, y: 20 }}
           animate={isActive ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="mt-12 md:mt-16"
+          className="mt-10 md:mt-14"
         >
           <Button
             variant="outline"

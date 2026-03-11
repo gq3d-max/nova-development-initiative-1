@@ -5,13 +5,9 @@ export const sections = [
     id: 'hero',
     subtitle: <Badge variant="outline" className="text-stone-400 border-stone-600 tracking-widest uppercase text-xs font-light">Конфиденциально. Надёжно. Быстро.</Badge>,
     title: "Активы должны работать — не застревать.",
+    content: 'Релокация и эвакуация ликвидных активов из проблемных юрисдикций, диктатур и зон нестабильности. Оперативно, легально и без огласки.',
     showButton: true,
     buttonText: 'Связаться с нами'
-  },
-  {
-    id: 'about',
-    title: 'Мы работаем там, где другие останавливаются.',
-    content: 'Релокация и эвакуация ликвидных активов из проблемных юрисдикций, диктатур и зон нестабильности. Оперативно, легально и без огласки.'
   },
   {
     id: 'features',
